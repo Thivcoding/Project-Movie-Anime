@@ -1,0 +1,232 @@
+.text-hover{
+    transition: .5s ease-in-out;
+}
+.text-hover:hover{
+    background-color: rgba(255, 0, 0, 0.542) !important;
+    transition: .5s ease-in-out;
+}
+.text-see{
+    transition: .5s ease-in-out;
+}
+.text-see:hover{
+    color: yellow !important;
+    transition: .5s ease-in-out;
+}
+.active{
+    background-color: rgba(255, 0, 0, 0.542) !important;
+}
+.text-drop{
+    transition: .5s ease-in-out;
+}
+.text-drop:hover{
+    color: rgba(255, 0, 0, 0.542) !important;
+    transition: .5s ease-in-out;
+}
+/* .dropdown-menu{
+    left: 5px;
+} */
+/* drop-chill-anime */
+.menu-sidebar-anime{
+    overflow: hidden;
+}
+.menu-sidebar-anime-0{
+    height: 0px;
+    transition: .5s ease-in-out;
+}
+.menu-sidebar-anime-1{
+    height: 80px;
+    transition: .5s ease-in-out;
+}
+/* drop-chill-moveis */
+.menu-sidebar-movies{
+    overflow: hidden ;
+}
+.menu-sidebar-movies-0{
+    height: 0px;
+    transition: .5s ease-in-out;
+}
+.menu-sidebar-moveis-1{
+    height: 80px;
+    transition: .5s ease-in-out;
+}
+/* drop-chill-manga */
+.menu-sidebar-manga{
+    overflow: hidden ;
+}
+.menu-sidebar-manga-0{
+    height: 0px;
+    transition: .5s ease-in-out;
+}
+.menu-sidebar-manga-1{
+    height: 80px;
+    transition: .5s ease-in-out;
+}
+/* drop-chill-blog */
+.menu-sidebar-blog{
+    overflow: hidden ;
+}
+.menu-sidebar-blog-0{
+    height: 0px;
+    transition: .5s ease-in-out;
+}
+.menu-sidebar-blog-1{
+    height: 80px;
+    transition: .5s ease-in-out;
+}
+/* drop-chill-pages */
+.menu-sidebar-pages{
+    overflow: hidden ;
+}
+.menu-sidebar-pages-0{
+    height: 0px;
+    transition: .5s ease-in-out;
+}
+.menu-sidebar-pages-1{
+    height: 120px;
+    transition: .5s ease-in-out;
+}
+/*  */
+.dropdown-item {
+    width: 70% !important;
+}
+.d-drop{
+    position: relative;
+    background-color: black;
+    transition: .5s ease-in-out;
+}
+.menu{
+    overflow: hidden;
+    position: absolute;
+    height: 0px; 
+    left: 9px;
+    background-color: black !important;	 
+    z-index: 1000;  
+}
+
+.d-drop:hover .menu{
+    width: 230px;
+    height: 80px;
+    transition: .5s ease-in-out;
+}
+.d-drop:nth-of-type(6):hover .menu{
+    width: 230px;
+    height: 120px;
+    transition: .5s ease-in-out;
+}
+.d-drop .menu > li:hover {
+    background-color: yellow;
+    transition: .5s ease-in-out;
+}
+.main-card{
+    cursor: pointer;
+    transition: .5s ease-in-out; 
+}
+.main-card:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+.overflow-x-scroll{
+    scrollbar-width: none
+}
+.card-1{
+    background-image: url(/assets/image/anime-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(/assets/image/anime-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url(/assets/image/anime-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-4{
+    background-image: url(/assets/image/anime-04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-5{
+    background-image: url(/assets/image/anime-05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-6{
+    background-image: url(/assets/image/anime-06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-7{
+    background-image: url(/assets/image/anime-07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-8{
+    background-image: url(/assets/image/anime-08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-9{
+    background-image: url(/assets/image/anime-09.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-10{
+    background-image: url(/assets/image/anime-10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-11{
+    background-image: url(/assets/image/anime-11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-12{
+    background-image: url(/assets/image/anime-12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-13{
+    background-image: url(/assets/image/anime-13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-14{
+    background-image: url(/assets/image/anime-14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-15{
+    background-image: url(/assets/image/anime-15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-16{
+    background-image: url(/assets/image/anime-06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-17{
+    background-image: url(/assets/image/anime-07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-18{
+    background-image: url(/assets/image/anime-08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.height-content{
+    height: 0px ;
+    transition: .2s ease-in-out;
+    
+}
+.custom-input::placeholder{
+    color: gray !important;
+}
+.bi-send{
+    cursor: pointer;
+}
+

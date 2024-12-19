@@ -1,0 +1,141 @@
+@media  (max-width:576px) {
+    .offcanvas {
+        width: 75% !important;
+      }
+      .benner-card{
+        height: 170px;
+      }
+      .benner-card-blog{
+          height: 330px;
+      }
+      .benner-card-1{
+        height: 250px;
+      }
+      .main-card-icon{
+        height: 85px;
+      }
+      .image-icon{
+        height: 65px;
+      }
+      .image-benner-gragon{
+        height: 300px;
+      }
+    .text-h{
+      font-size: 18px;
+    }
+    .text-p{
+      font-size: 15px;
+    }
+    .d-row{
+        flex-wrap: wrap;
+    }
+    .footer{
+      height: 1000px !important; 
+    }
+    .image-in-footer{
+      height: 100px;
+    }
+      
+}
+@media (min-width:600px){
+  .acticle h1{
+      font-size: 50px;
+    }
+    .benner-card{
+      height: 290px;
+    }
+    .benner-card-blog{
+      height: 320px;
+    }
+    .benner-card-1{
+      height: 230px;
+    }
+    .main-card-icon{
+      height: 90px;
+    }
+    .image-icon{
+      height: 70px;
+    }
+    .image-benner-gragon{
+      height: 420px;
+    }
+    .text-h{
+      font-size: 22px;
+    }
+    .text-p{
+      font-size: 20px;
+    }
+    .image-in-footer{
+      height: 50%;
+    }
+    
+  }
+@media (min-width:769px){
+.acticle h1{
+    font-size: 50px;
+  }
+  .benner-card{
+    height: 290px;
+  }
+  .benner-card-blog{
+    height: 350px;
+  }
+  .benner-card-1{
+    height: 230px;
+  }
+  .main-card-icon{
+    height: 90px;
+  }
+  .image-icon{
+    height: 70px;
+  }
+  .image-benner-gragon{
+    height: 420px;
+  }
+  .text-h{
+    font-size: 22px;
+  }
+  .text-p{
+    font-size: 20px;
+  }
+  .image-in-footer{
+    height: 50%;
+  }
+  
+}
+@media (min-width:992px){
+  .acticle h1{
+    font-size: 65px;
+  }
+  .benner-card{
+    height: 230px;
+  }
+  .benner-card-blog{
+    height: 370px;
+  }
+  .benner-card-1{
+    height: 230px;
+  }
+  .main-card-icon{
+    height: 100px;
+  }
+  .image-icon{
+    height: 80px;
+  }
+  .image-benner-gragon{
+    height: 380px;
+  }
+  .text-h{
+    font-size: 25px;
+  }
+  .text-p{
+    font-size: 18px;
+  }
+  footer{
+    height: 480px;
+  }
+  .image-in-footer{
+    height: 50%;
+  }
+
+}

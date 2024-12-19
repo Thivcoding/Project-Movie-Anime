@@ -1,0 +1,82 @@
+.benner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/image/Benner.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-benner{
+    background-color: rgba(0, 0, 0, 0.278);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.benner-content{
+    width: 100%;
+    background-image: url(/assets/image/benner-sans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.benner-Dragon{
+    width: 100%;
+    background-image: url(/assets/image/benner-dragon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width:576px){
+    .chill-benner{
+        bottom: 0px;
+    }
+    .benner-content{
+        height: 340px;
+    }
+    .benner-Dragon{
+        height: 690px;
+    }
+}
+
+@media (min-width:600px){
+    .chill-benner{
+        bottom: 40px;
+    }
+    .benner-content{
+        height: 410px;
+    }
+    .benner-Dragon{
+        height: 750px;
+    }
+    .main-benner-dragon{
+        padding-left: 32px !important; 
+        padding-right: 32px !important; 
+    }
+}
+@media (min-width:769px){
+    .chill-benner{
+        bottom: 40px;
+    }
+    .benner-content{
+        height: 410px;
+    }
+    .benner-Dragon{
+        height: 750px;
+    }
+    .main-benner-dragon{
+        padding-left: 8px !important; 
+        padding-right: 8px !important; 
+    }
+}
+@media (min-width:992px){
+    .chill-benner{
+            bottom: 90px;
+    }
+    .benner-content{
+        height: 430px ;
+    }
+    .benner-Dragon{
+        height: 430px;
+    }
+    .main-text-bennerdragon{
+        height: 100%;
+    }
+}
